@@ -77,9 +77,15 @@ if "add" in response:
                 print(sum)
             
         except ValueError:
-            
-            
+            except ValueError:
+            newnumright = str(number_right)
+            print(newnumright)
+            speak("Your total score is " + newnumright)
+            speak("exiting")
+            print('exiting')
             break
+            
+            
 
         # elif not response:
         #     print("see u next time buds")
