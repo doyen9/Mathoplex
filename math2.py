@@ -3,8 +3,7 @@ from random import randint, randrange
 import operator
 import time
 import timeit
-from tkinter import *
-import tkinter
+
 from time import time
 # import speech_recognition as sr
 import pyttsx3
